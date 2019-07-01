@@ -1,17 +1,17 @@
 {
-  "name": "Link to Archive",
-  "author": "Pierre Rudloff",
+  "name": "Save to Archive",
+  "author": "Mark Brown",
   "license-name": "GPL-3.0",
-  "version": "1.0.0",
-  "description": "Add a link to archive.org to every external link",
-  "url": "https://github.com/Archi-Strasbourg/mediawiki-link-to-archive",
+  "version": "0.1.0",
+  "description": "Save a link to archive.org to every external link",
+  "url": "https://github.com/Wheels00/mediawiki-save-to-archive",
   "Hooks": {
     "LinkerMakeExternalLink": [
-      "LinkToArchive\\LinkToArchive::onLinkerMakeExternalLink"
+      "SaveToArchive\\LinkToArchive::onLinkerMakeExternalLink"
     ]
   },
   "AutoloadClasses": {
-    "LinkToArchive\\LinkToArchive": "LinkToArchive.php"
+    "SaveToArchive\\LinkToArchive": "SaveToArchive.php"
   },
   "MessagesDirs": {
     "ArchiHome": [

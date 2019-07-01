@@ -1,6 +1,6 @@
 {
-  "name": "archi-strasbourg/link-to-archive",
-  "description": "Add a link to archive.org to every external link",
+  "name": "Wheels00/mediawiki-save-to-archive",
+  "description": "Save a link to archive.org for every external link",
   "type": "mediawiki-extension",
   "license": "GPL-3.0"
 }

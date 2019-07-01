@@ -1,2 +1,3 @@
 # mediawiki-archive-links
-Add a link to archive.org to every external link
+Save a link to archive.org for every external link
+Based on Extension:LinkToArchive by Pierre Rudloff https://www.mediawiki.org/wiki/Extension:LinkToArchive

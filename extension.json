@@ -7,11 +7,11 @@
   "url": "https://github.com/Wheels00/mediawiki-save-to-archive",
   "Hooks": {
     "LinkerMakeExternalLink": [
-      "SaveToArchive\\LinkToArchive::onLinkerMakeExternalLink"
+      "SaveToArchive\\SaveToArchive::onLinkerMakeExternalLink"
     ]
   },
   "AutoloadClasses": {
-    "SaveToArchive\\LinkToArchive": "SaveToArchive.php"
+    "SaveToArchive\\SaveToArchive": "SaveToArchive.php"
   },
   "MessagesDirs": {
     "ArchiHome": [
